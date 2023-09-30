@@ -1,0 +1,297 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+background-size: contain;
+font-family: cinzel;
+background: linear-gradient(109.6deg, rgb(6, 2, 2) 32.4%, rgb(137, 30, 47) 98.8%);}
+.navbar{
+    display: flex;
+    
+    justify-content: space-between;
+align-items: center;
+height: fit-content;
+
+margin: 30px;
+padding: 25px 60px;
+
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW4Ku7Qz9NsNN2cchzpgW_GfJxgAqeaVlJlAPCoKL9Bl0DS5b-5PURtEltMWVhFoomvYo&usqp=CAU");
+background-size: contain;
+}
+
+  
+.navbar img{
+    height: 50px;
+    width: 70px;
+    margin-left: 13%;
+    
+}
+#marvel-image img{
+  height: 100vh;
+  width: 100vw;
+  margin: 30px;
+
+}
+#avengers{
+    color: bisque;
+    margin-top: -9%;
+    margin-left: -5%;
+}
+#search-key{
+    background-color: #2b4a2f;
+    height: 24px;
+    border-radius: 2rem;
+    box-shadow: #2b4a2f;
+    border: 2px solid beige;
+    font-size: 15px;
+    color: #CA7968;
+    align-items: center;
+    padding: 1rem;
+    
+}
+.cart{
+    background-color: #e5e3e6;
+    color: #11001C;
+    padding: 5px;
+    font-size: 30px;
+    border-radius:4px ;
+    position: relative;
+
+}
+.cartAmount{
+    position: absolute;
+    top: -15px;
+right: -10px;
+padding: 3px;
+border-radius: 3px;
+    font-size: 16px;
+
+    background-color: rgb(160, 36, 36);
+    color: wheat;
+}
+.shop{
+    display: flex;
+    flex-direction: column;
+
+justify-content: center;
+align-items: center;
+margin-bottom: 20px;
+
+}
+#suggestions{
+display: flex;
+flex-direction: column;
+justify-content: center;
+background-image: linear-gradient(rgb(10, 9, 9),rgb(148, 125, 13));
+margin: 30px;
+padding: 25px 60px;
+background-size: cover;
+}
+
+/* .suggestion{
+    margin: 10px;
+    height: 40px;
+    width: 59px;
+    display: flex;
+    flex-direction: column;
+   
+} */
+.suggestion h4{
+    color: rgb(220, 234, 234);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+   }
+   #list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: wheat;
+overflow: hidden;
+   }
+   .container{
+    display: flex;
+    flex-direction: column;
+margin-bottom: 40px;
+  
+
+}
+.container p{
+    font-size: 60px;
+    font-family:'Times New Roman', Times, serif;
+    background: linear-gradient(to right, #cde4ed,
+            #976543, #6eb11c, #bca5b0);
+    -webkit-text-fill-color: transparent;
+  
+}
+#details-button{
+    align-items: center;
+    justify-content: center;
+}
+
+.container button{
+             
+        background-image: linear-gradient(to right, #000000 0%, #0f9b0f  51%, #000000  100%);
+        margin-left: -20px;
+        margin-top: 30px;
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        
+      }
+
+      .container button:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+      
+     
+
+}
+
+
+
+
+/* details section */
+/* 
+ */
+ #main-container{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+    font-size: 15px;
+    /* background: rgb(39, 39, 39); */
+    
+margin: 30px;
+padding: 25px 60px;
+}
+
+#main-container h4{
+  
+    width: fit-content;
+
+    
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #f32170,
+            #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    
+    
+}
+#main-container h2{
+    margin-top: 42px;
+    font-size:30px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #133f7f,
+            #ff6b08, #f0d1da, #686338);
+    -webkit-text-fill-color: transparent;
+    
+}
+.link{
+    font-family: serif;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+ 
+   /********************************* Mark As Favourite Button **********************************/
+         
+#heart{
+            
+        background-image: linear-gradient(to right, #283c86 0%, #45a247  51%, #283c86  100%);
+        margin-left: 80px;
+        margin-top: 60px;
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+    
+      }
+
+#heart:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+      }
+     
+
+
+
+#details-image-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     
+}
+#more-details{
+   margin-top: -12%; 
+   margin-left: 65%;  
+}
+#more-details button{
+
+background-image: linear-gradient(to right, #00bf8f 0%, #001510  51%, #00bf8f  100%);
+margin-left: 80px;
+margin-top: 60px;
+padding: 15px 45px;
+text-align: center;
+text-transform: uppercase;
+transition: 0.5s;
+background-size: 200% auto;
+color: rgb(205, 219, 228);            
+box-shadow: 0 0 20px #eee;
+border-radius: 10px;
+
+   
+cursor: pointer;
+  }
+
+#more-details button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+           
+
+ 
+
+
+
+
+
+
+/* fav container */
+/* 
+fav
+
+*/
+#list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://t4.ftcdn.net/jpg/03/69/93/57/360_F_369935708_fxeUZMByAjpLhZj71WiV5Ka6Xd0VVh00.jpg");
+background-size: cover;
+}
+
